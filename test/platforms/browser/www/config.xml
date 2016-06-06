@@ -3,7 +3,7 @@
     <name>Susan's App</name>
     <description>This is a demonstration of what we can do</description>
     <author email="susanlescobar@gmail.com" href="http://www.susanlescobar.com">Susan Escobar</author>
-    <content src="http://www.susanlescobar.com" />
+    <content src="http://www.alamo.edu" />
     <icon src="icon.png" />
     <access origin="*" subdomains="true" />
     <allow-intent href="http://*/*" />
