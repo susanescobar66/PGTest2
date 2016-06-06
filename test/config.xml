@@ -2,7 +2,7 @@
   <name>Susan's App</name>
   <description>This is a demonstration of what we can do</description>
   <author href="http://www.susanlescobar.com" email="susanlescobar@gmail.com">Susan Escobar</author>
-  <content src="http://www.susanlescobar.com" />
+  <content src="http://www.alamo.edu" />
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="14"/>
   <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1"/>

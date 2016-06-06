@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.susanlescobar.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Susan Escobar's App</name>
+    <name>Susan's App</name>
     <description>This is a demonstration of what we can do</description>
-    <author email="susanlescobar@gmail.com" href="http://susanlescobar.com">Susan Escobar</author>
-    <content src="http://www.susanlescobar.com/" />
+    <author email="susanlescobar@gmail.com" href="http://www.susanlescobar.com">Susan Escobar</author>
+    <content src="http://www.susanlescobar.com" />
     <icon src="icon.png" />
-    <access origin="http://www.susanlescobar.com/" />
+    <access origin="*" subdomains="true" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
