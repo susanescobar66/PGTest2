@@ -1,8 +1,8 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.susanlescobar.app" version="1.0.0">
-  <name>Susan Escobar's App</name>
+  <name>Susan's App</name>
   <description>This is a demonstration of what we can do</description>
-  <author href="http://susanlescobar.com" email="susanlescobar@gmail.com">Susan Escobar</author>
-  <content src="http://www.susanlescobar.com/"/>
+  <author href="http://www.susanlescobar.com" email="susanlescobar@gmail.com">Susan Escobar</author>
+  <content src="http://www.susanlescobar.com" />
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="14"/>
   <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1"/>
@@ -96,7 +96,7 @@
     <icon src="www/res/icon/windows/Wide310x150Logo.scale-240.png" platform="windows" width="744" height="360"/>
     <splash src="www/res/screen/windows/SplashScreenPhone.scale-240.png" platform="windows" width="1152" height="1920"/>
   </platform>
-  <access origin="http://www.susanlescobar.com/"/>
+    <access origin="*" subdomains="true" />
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
   <allow-intent href="tel:*"/>
